@@ -3,3 +3,24 @@
   margin: 0;
   padding: 0;
 }
+html{
+  font-size: 10px;
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  padding: 1.5rem 1rem;
+}
+.main-nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+}
+.main-nav-list{
+  display: flex;
+  list-style: none;
+}
+.main-nav-list li{
+  margin: 0 10px;
+}
